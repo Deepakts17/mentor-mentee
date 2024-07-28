@@ -5,6 +5,7 @@ import json
 import sqlite3
 
 # Utility functions
+
 def make_hashes(password):
     return hashlib.sha256(str.encode(password)).hexdigest()
 
